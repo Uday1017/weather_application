@@ -1,16 +1,46 @@
-# weather_application
+# 🌤️ Urban Skies
 
-A new Flutter project.
+**Urban Skies** is a sleek and modern weather app built with Flutter. It provides real-time weather updates based on the user's city input and features a clean, user-friendly UI.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- 🌐 City-based weather forecast
+- 🎨 Elegant splash screen with animation
+- ☁️ Weather icons & status
+- 💾 Stores the last searched location
+- ⚙️ Built with REST APIs using OpenWeatherMap
+- 📱 Responsive design
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📸 Screenshots
+
+### Home Screen
+![Home Screen](assests/Homepage.jpeg)
+
+### Weather Results
+![Weather Results](assests/results.jpeg)
+
+### City Not Found
+![City Not Found](assests/citynotfound.jpeg)
+
+
+## 🛠️ Tech Stack
+
+- **Flutter** (Dart)
+- **OpenWeatherMap API**
+- **Shared Preferences**
+- **Flutter Native Splash**
+- **Flutter Spinkit**
+
+---
+
+## 🔧 Setup Instructions
+
+```bash
+git clone https://github.com/your-username/urban_skies.git
+cd urban_skies
+flutter pub get
+flutter run
